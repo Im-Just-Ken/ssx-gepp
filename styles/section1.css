@@ -1,0 +1,61 @@
+.section1-text-size {
+  /* Default: Mobile (phones) */
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-medium) var(--unnamed-font-family-helvetica-neue);
+
+  font-size: 15px;
+}
+
+.card {
+  background: var(--color-light) 0% 0% no-repeat padding-box;
+  border: 2px solid var(--color-accent);
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px #00000029;
+}
+
+.card-title {
+  color: var(--color-accent);
+}
+
+@media (min-width: 576px) {
+  .section1-text-size {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+    margin: auto;
+  }
+  .section1-text-size {
+    font-size: 20px;
+  }
+}
+
+/*? LAPTOPS/PC */
+@media (min-width: 992px) {
+  .section1-text-size {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section1-text-size {
+    font-size: 20px;
+  }
+}
+
+/*? XL SCREENS */
+
+@media (min-width: 1400px) {
+  .section1-text-size {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .section1-text-size {
+    font-size: 30px;
+  }
+}

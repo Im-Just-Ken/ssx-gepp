@@ -1,0 +1,178 @@
+:root {
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-bold: 700;
+  --unnamed-font-weight-medium: 500;
+  --unnamed-font-weight-normal: 400;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-30: 30px;
+  --unnamed-line-spacing-26: 26px;
+  --unnamed-font-family-helvetica-neue: "Helvetica Neue", Arial, sans-serif;
+
+  /* Global Colors */
+  --color-light: #f9f9f6;
+  --color-dark: #1e1e1b;
+  --color-accent: #005f3c;
+  --color-black: #010101;
+  --color-muted: #e6f2e6;
+}
+
+body {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-size: var(--unnamed-font-size-16);
+  font-weight: var(--unnamed-font-weight-normal);
+  line-height: var(--unnamed-line-spacing-26);
+  font-style: var(--unnamed-font-style-normal);
+  background-image: url("https://placehold.co/1920x1080");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*? WIDTH :: HEADER TITLE*/
+.w-276-title {
+  width: auto;
+  font-weight: bold;
+}
+
+/*? TEXT SIZE :: HEADER TITLE*/
+
+.text-header-title {
+  font: var(--unnamed-font-style-normal) 500 var(--unnamed-font-weight-bold)
+    var(--unnamed-font-family-helvetica-neue);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/*? TEXT SIZE :: HEADER DEFAULT */
+.text-size-16 {
+  font-size: 16px;
+}
+
+.custom-container {
+  max-width: 100px; /* Default max width */
+  margin: 0 auto; /* Centering */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*? TABLETS */
+@media (min-width: 576px) {
+  .custom-text {
+    font-size: 18px;
+  }
+  .custom-container {
+    max-width: 90%;
+    padding: 25px 0 25px 0;
+  }
+  .w-276-title {
+    width: 400px;
+  }
+  .text-header-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .text-size-16 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-text {
+    font-size: 24px;
+  }
+  .custom-container {
+    max-width: 90%;
+    padding: 25px 0 25px 0;
+  }
+  .w-276-title {
+    width: 400px;
+  }
+  .text-header-title {
+    font-size: 16px;
+  }
+  .text-size-16 {
+    font-size: 16px;
+  }
+}
+
+/*? LAPTOPS/PC */
+@media (min-width: 992px) {
+  .custom-text {
+    font-size: 32px;
+  }
+  .custom-container {
+    max-width: 90%;
+    padding: 25px 0 25px 0;
+  }
+  .text-size-16 {
+    font-size: 12px;
+  }
+  .text-header-title {
+    font-size: 16px;
+  }
+  .w-276-title {
+    width: 276px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-text {
+    font-size: 40px;
+  }
+  .custom-container {
+    max-width: 90%;
+    padding: 25px 0 25px 0;
+  }
+
+  .text-size-16 {
+    font-size: 13px;
+  }
+  .text-header-title {
+    font-size: 16px;
+  }
+  .w-276-title {
+    width: 276px;
+  }
+}
+
+/*? XL SCREENS */
+@media (min-width: 1400px) {
+  .custom-text {
+    padding: 25px 0 25px 0;
+  }
+  .custom-container {
+    max-width: 90%;
+    padding: 25px 0 25px 0;
+  }
+  .text-size-16 {
+    font-size: 13px;
+  }
+  .text-header-title {
+    font-size: 20px;
+  }
+  .w-276-title {
+    width: 276px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .custom-text {
+    font-size: 48px;
+  }
+  .custom-container {
+    max-width: 90%;
+    padding: 25px 0 25px 0;
+  }
+  .text-size-16 {
+    font-size: 16px;
+  }
+  .text-header-title {
+    font-size: 20px;
+  }
+  .w-276-title {
+    width: 276px;
+  }
+}

@@ -14,151 +14,166 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/hero.css" />
+    <link rel="stylesheet" href="/styles/section1.css" />
+    <link rel="stylesheet" href="/styles/section2.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
     />
-
     <title>Document</title>
-    <style>
-      body {
-        background-image: url("https://placehold.co/1920x1080"); /* Replace with your actual image URL */
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-      }
-    </style>
   </head>
   <body>
-    <header class="px-73 pt-25">
+    <header class="border">
       <nav class="d-flex justify-content-between">
         <div>
-          <div class="text-size-20 bold-text w-276">
+          <div class="text-size-20 bold-text w-276-title text-header-title">
             Green Economy Programme in the Philippines
           </div>
         </div>
-        <div class="d-flex gap-20 fs-6 align-items-center">
-          <i class="bi bi-house-door-fill"></i>
-          <div>
+        <!-- MENU FOR SMALL SCREEN -->
+        <i
+          class="bi bi-list fs-2 d-lg-none"
+          id="hamburgerIcon"
+          style="cursor: pointer"
+        ></i>
+        <!-- MENU FOR LARGE SCREEN -->
+        <div class="d-none d-lg-flex gap-4 fs-6 align-items-center">
+          <h1 class="text-size-16"><i class="bi bi-house-door-fill"></i></h1>
+
+          <h1 class="text-size-16">
             About Green Economy <i class="bi bi-arrow-down-circle-fill"></i>
-          </div>
-          <div>Learning Center</div>
-          <div>
+          </h1>
+          <h1 class="text-size-16">Learning Center</h1>
+          <h1 class="text-size-16">
             Learning Center <i class="bi bi-arrow-down-circle-fill"></i>
-          </div>
-          <div>Collaboration <i class="bi bi-arrow-down-circle-fill"></i></div>
-          <div>Highlights</div>
-          <div>Events</div>
-          <div>Community <i class="bi bi-arrow-down-circle-fill"></i></div>
-          <div>Connect with Us</div>
+          </h1>
+          <h1 class="text-size-16">
+            Collaboration <i class="bi bi-arrow-down-circle-fill"></i>
+          </h1>
+          <h1 class="text-size-16">Highlights</h1>
+          <h1 class="text-size-16">Events</h1>
+          <h1 class="text-size-16">
+            Community <i class="bi bi-arrow-down-circle-fill"></i>
+          </h1>
+          <h1 class="text-size-16">Connect with Us</h1>
         </div>
       </nav>
     </header>
 
-    <section class="h-600 hero d-flex justify-content-center">
-      <div class="mt-241 d-flex flex-column align-items-center text-center">
-        <h1 class="large-bold-text">
-          Welcome to the Green Economy Program (GEPP)
+    <section>
+      <div
+        class="d-flex flex-column pt-pb-hero text-center justify-content-center align-items-center"
+      >
+        <h1 class="hero-heading-1">
+          Accelerating the Philippines’ Green Transition
         </h1>
-        <p class="text-size-40 font-bold-40 line-height-55">
+        <h1 class="hero-heading-2">
           Empowering the Philippines for a Sustainable Future
-        </p>
-        <p class="w-943 text-size-20">
+        </h1>
+        <h1 class="hero-heading-3 hero-heading-3-w">
           A platform designed to accelerate the country’s transition to a
           climate-smart, circular economy through collaboration, innovation, and
           actionable solutions.
-        </p>
+        </h1>
       </div>
     </section>
-    <section class="bg-light">
-      <section class="border py-70 flex justify-content-center">
-        <div class="d-flex px-140">
-          <div>
+    <section class="border bg-light">
+      <div class="container py-5 text-center">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6 text-lg-start">
             <img
-              class="img-fluid rounded-4"
-              src="https://placehold.co/812x572.png"
-              alt=""
+              class="img-fluid rounded-5"
+              src="https://placehold.co/812x572"
+              alt="Placeholder Image"
             />
           </div>
-          <div
-            class="d-flex justify-content-center align-items-center w-787 text-size-30 medium-text ml-41"
-          >
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod.
+          <div class="col-lg-6 text-start">
+            <h1 class="section1-text-size fw-normal">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+            </h1>
           </div>
         </div>
-        <div class="d-flex justify-content-center gap-5">
-          <div
-            class="border border-3 border-success rounded-5 mt-70 w-420 text-center"
-          >
-            <div class="mx-31 my-42">
-              <img src="https://placehold.co/100x100/png" alt="" />
-              <h1>Shape a Sustainable Future</h1>
-              <p>
+        <div class="row justify-content-center g-4 mt-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 p-4 text-center">
+              <img
+                src="https://placehold.co/100x100"
+                alt=""
+                class="mb-3 mx-auto"
+              />
+              <h2 class="fs-3 card-title">Shape a Sustainable Future</h2>
+              <p class="fs-6">
                 GEPP is transforming the Philippines into a sustainable,
                 inclusive economy through policies, partnerships, and renewable
-                energy for a brighter future.
+                energy.
               </p>
-              <button class="border rounded bg-success px-4 py-2">
-                LEARN MORE
-              </button>
+              <button class="btn btn-success mt-3">LEARN MORE</button>
             </div>
           </div>
-          <div
-            class="border border-3 border-success rounded-5 mt-70 w-420 text-center"
-          >
-            <div class="mx-31 my-42">
-              <img src="https://placehold.co/100x100/png" alt="" />
-              <h1>Shape a Sustainable Future</h1>
-              <p>
-                GEPP is transforming the Philippines into a sustainable,
-                inclusive economy through policies, partnerships, and renewable
-                energy for a brighter future.
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 p-4 text-center">
+              <img
+                src="https://placehold.co/100x100"
+                alt=""
+                class="mb-3 mx-auto"
+              />
+              <h2 class="fs-3 card-title">Unlock Green Solutions</h2>
+              <p class="fs-6">
+                Explore best practices, policies, and innovations in the
+                circular economy. Gain actionable knowledge to drive
+                sustainability.
               </p>
-              <button class="border rounded bg-success px-4 py-2">
-                LEARN MORE
-              </button>
+              <button class="btn btn-success mt-3">LEARN MORE</button>
             </div>
           </div>
-          <div
-            class="border border-3 border-success rounded-5 mt-70 w-420 text-center"
-          >
-            <div class="mx-31 my-42">
-              <img src="https://placehold.co/100x100/png" alt="" />
-              <h1>Shape a Sustainable Future</h1>
-              <p>
-                GEPP is transforming the Philippines into a sustainable,
-                inclusive economy through policies, partnerships, and renewable
-                energy for a brighter future.
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 p-4 text-center">
+              <img
+                src="https://placehold.co/100x100"
+                alt=""
+                class="mb-3 mx-auto"
+              />
+              <h2 class="fs-3 card-title">Join the Movement</h2>
+              <p class="fs-6">
+                Connect with innovators and stakeholders to drive green
+                solutions and impactful collaborations.
               </p>
-              <button class="border rounded bg-success px-4 py-2">
-                LEARN MORE
-              </button>
+              <button class="btn btn-success mt-3">LEARN MORE</button>
             </div>
           </div>
-          <div
-            class="border border-3 border-success rounded-5 mt-70 w-420 text-center"
-          >
-            <div class="mx-31 my-42">
-              <img src="https://placehold.co/100x100/png" alt="" />
-              <h1>Shape a Sustainable Future</h1>
-              <p>
-                GEPP is transforming the Philippines into a sustainable,
-                inclusive economy through policies, partnerships, and renewable
-                energy for a brighter future.
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 p-4 text-center">
+              <img
+                src="https://placehold.co/100x100"
+                alt=""
+                class="mb-3 mx-auto"
+              />
+              <h2 class="fs-3 card-title">Stay Connected, Stay Informed</h2>
+              <p class="fs-6">
+                Join experts, businesses, and policymakers in events shaping the
+                green economy and explore sustainable solutions.
               </p>
-              <button class="border rounded bg-success px-4 py-2">
-                LEARN MORE
-              </button>
+              <button class="btn btn-success mt-3">LEARN MORE</button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="bg-success p-5 text-center">
+      <h1 class="section2-text-size">
+        Join the movement for a sustainable future. Together, we can transform
+        challenges into opportunities for a greener world.
+      </h1>
+    </section>
+    <section>
+      <h1>Upcoming Events</h1>
     </section>
   </body>
 </html>

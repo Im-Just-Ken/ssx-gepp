@@ -1,0 +1,143 @@
+.pt-pb-hero {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.hero-heading-1 {
+  font-size: 20px;
+}
+
+.hero-heading-2 {
+  font-size: 14px;
+}
+
+.hero-heading-3 {
+  font-size: 10px;
+}
+
+.hero-heading-3-w {
+  width: 300px;
+}
+
+/*? TABLETS */
+@media (min-width: 576px) {
+  .hero-heading-1 {
+    font-size: 25px;
+  }
+  .hero-heading-2 {
+    font-size: 20px;
+  }
+  .hero-heading-3 {
+    font-size: 14px;
+  }
+  .hero-heading-3-w {
+    width: 450px;
+  }
+  .pt-pb-hero {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-heading-1 {
+    font-size: 35px;
+  }
+  .hero-heading-2 {
+    font-size: 25px;
+  }
+  .hero-heading-3 {
+    font-size: 13px;
+  }
+  .hero-heading-3-w {
+    width: 570px;
+  }
+  .pt-pb-hero {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+
+/*? LAPTOPS/PC */
+@media (min-width: 992px) {
+  .hero-heading-1 {
+    font-size: 40px;
+  }
+  .hero-heading-2 {
+    font-size: 30px;
+  }
+  .hero-heading-3 {
+    font-size: 15px;
+  }
+  .hero-heading-3-w {
+    width: 603px;
+  }
+  .hero-heading-3-w {
+    width: 600px;
+  }
+  .pt-pb-hero {
+    padding-top: 241px;
+    padding-bottom: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-heading-1 {
+    font-size: 50px;
+  }
+  .hero-heading-2 {
+    font-size: 40px;
+  }
+  .hero-heading-3 {
+    font-size: 20px;
+  }
+  .hero-heading-3-w {
+    width: 943px;
+  }
+  .hero-heading-3-w {
+    width: 800px;
+  }
+  .pt-pb-hero {
+    padding-top: 241px;
+    padding-bottom: 150px;
+  }
+}
+
+/*? XL SCREENS */
+@media (min-width: 1400px) {
+  .hero-heading-1 {
+    font-size: 60px;
+  }
+  .hero-heading-2 {
+    font-size: 40px;
+  }
+  .hero-heading-3 {
+    font-size: 20px;
+  }
+  .hero-heading-3-w {
+    width: 943px;
+  }
+  .pt-pb-hero {
+    padding-top: 241px;
+    padding-bottom: 150px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-heading-1 {
+    font-size: 60px;
+  }
+  .hero-heading-2 {
+    font-size: 40px;
+  }
+  .hero-heading-3 {
+    font-size: 20px;
+  }
+  .hero-heading-3-w {
+    width: 943px;
+  }
+  .pt-pb-hero {
+    padding-top: 241px;
+    padding-bottom: 150px;
+  }
+}
