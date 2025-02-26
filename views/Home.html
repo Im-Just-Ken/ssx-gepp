@@ -14,10 +14,12 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/styles/root.css" />
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/hero.css" />
     <link rel="stylesheet" href="/styles/section1.css" />
     <link rel="stylesheet" href="/styles/section2.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
@@ -25,7 +27,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="custom-container border">
+    <header class="custom-container position-fixed end-0 start-0 z-3">
       <nav class="d-flex justify-content-between">
         <div>
           <div class="text-size-20 bold-text w-276-title text-header-title">
@@ -61,8 +63,7 @@
         </div>
       </nav>
     </header>
-
-    <section>
+    <section class="hero">
       <div
         class="d-flex flex-column pt-pb-hero text-center justify-content-center align-items-center"
       >
@@ -79,7 +80,7 @@
         </h1>
       </div>
     </section>
-    <section class="border bg-light">
+    <section class="section-1 border bg-light">
       <div class="py-5 text-center">
         <div class="custom-container section-1-px row align-items-center">
           <div class="col-lg-6 text-lg-end">
@@ -169,20 +170,24 @@
         </div>
       </div>
     </section>
-    <section class="bg-success p-5 text-center">
-      <h1 class="section2-text-size">
+    <section class="section-2 bg-success p-5 text-center">
+      <h1 class="section2-text-size custom-container">
         Join the movement for a sustainable future. Together, we can transform
         challenges into opportunities for a greener world.
       </h1>
     </section>
-    <section class="bg-light">
+    <section class="section-3 bg-light text-center">
       <h1>UPCOMING EVENTS</h1>
 
       <div class="custom-container row g-4">
         <!-- Event 1 -->
         <div class="col-12 col-md-6">
           <div class="row align-items-center">
-            <div class="col-4">
+            <div class="col-4 position-relative">
+              <span
+                class="position-absolute top-0 start-0 bg-danger text-white px-2 py-1 rounded-2 fs-mono"
+                >UPCOMING</span
+              >
               <img
                 src="https://placehold.co/400x400"
                 class="img-fluid rounded"
@@ -209,7 +214,12 @@
         <!-- Event 2 -->
         <div class="col-12 col-md-6">
           <div class="row align-items-center">
-            <div class="col-4">
+            <div class="col-4 position-relative">
+              <span
+                class="position-absolute top-0 start-0 bg-danger text-white px-2 py-1 rounded-2 fs-mono"
+                >UPCOMING</span
+              >
+
               <img
                 src="https://placehold.co/400x400"
                 class="img-fluid rounded"
@@ -236,7 +246,11 @@
         <!--Event 3-->
         <div class="col-12 col-md-6">
           <div class="row align-items-center">
-            <div class="col-4">
+            <div class="col-4 position-relative">
+              <span
+                class="position-absolute top-0 start-0 bg-danger text-white px-2 py-1 rounded-2 fs-mono"
+                >UPCOMING</span
+              >
               <img
                 src="https://placehold.co/400x400"
                 class="img-fluid rounded"
@@ -261,8 +275,12 @@
         </div>
         <!-- Event 4-->
         <div class="col-12 col-md-6">
-          <div class="row align-items-center">
-            <div class="col-4">
+          <div class="row align-items-start">
+            <div class="col-4 position-relative">
+              <span
+                class="position-absolute top-0 start-0 bg-danger text-white px-2 py-1 rounded-2 fs-mono"
+                >UPCOMING</span
+              >
               <img
                 src="https://placehold.co/400x400"
                 class="img-fluid rounded"
@@ -287,5 +305,170 @@
         </div>
       </div>
     </section>
+    <section class="section-4 bg-warning text-center py-5">
+      <h1 class="mb-4">LATEST NEWS</h1>
+      <div class="custom-container">
+        <div class="row g-4">
+          <!-- News Article 1 -->
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-start bg-white p-3 rounded shadow">
+              <img
+                src="https://placehold.co/200x200"
+                class="img-fluid rounded me-3"
+                alt="Event Image"
+              />
+              <div class="text-start">
+                <h6 class="text-uppercase text-muted">Article Tag</h6>
+                <h4 class="mb-2">Ut dictum eros vitae venenatis interdum</h4>
+                <p class="small mb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <span class="text-decoration-underline">
+                  Read more <i class="bi bi-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- News Article 2  -->
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-start bg-white p-3 rounded shadow">
+              <img
+                src="https://placehold.co/200x200"
+                class="img-fluid rounded me-3"
+                alt="Event Image"
+              />
+              <div class="text-start">
+                <h6 class="text-uppercase text-muted">Article Tag</h6>
+                <h4 class="mb-2">Ut dictum eros vitae venenatis interdum</h4>
+                <p class="small mb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <span class="text-decoration-underline">
+                  Read more <i class="bi bi-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- News Article 3  -->
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-start bg-white p-3 rounded shadow">
+              <img
+                src="https://placehold.co/200x200"
+                class="img-fluid rounded me-3"
+                alt="Event Image"
+              />
+              <div class="text-start">
+                <h6 class="text-uppercase text-muted">Article Tag</h6>
+                <h4 class="mb-2">Ut dictum eros vitae venenatis interdum</h4>
+                <p class="small mb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <span class="text-decoration-underline">
+                  Read more <i class="bi bi-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!--News Article 4-->
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-start bg-white p-3 rounded shadow">
+              <img
+                src="https://placehold.co/200x200"
+                class="img-fluid rounded me-3"
+                alt="Event Image"
+              />
+              <div class="text-start">
+                <h6 class="text-uppercase text-muted">Article Tag</h6>
+                <h4 class="mb-2">Ut dictum eros vitae venenatis interdum</h4>
+                <p class="small mb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <span class="text-decoration-underline">
+                  Read more <i class="bi bi-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-light py-4">
+      <div class="custom-container">
+        <div class="border-top border-3 border-success"></div>
+        <div
+          class="mt-4 position-relative d-flex align-items-center text-center text-md-start"
+        >
+          <!-- First div: Long EU text -->
+          <div>
+            <p class="fw-bold small footer-text-color">
+              EU-PH Green Economy Programme in the Philippines (GEPP)
+            </p>
+          </div>
+
+          <!-- Centered Privacy Policy -->
+          <div class="position-absolute start-50 translate-middle-x">
+            <p class="small fw-bold footer-text-color">
+              Privacy Policy | Cookie Policy
+            </p>
+          </div>
+
+          <!-- Social icons aligned to the right -->
+          <div class="ms-auto d-flex gap-3 footer-text-color">
+            <div class="fs-4"><i class="bi bi-facebook"></i></div>
+            <div class="fs-4"><i class="bi bi-reddit"></i></div>
+            <div class="fs-4"><i class="bi bi-instagram"></i></div>
+            <div class="fs-4"><i class="bi bi-twitter-x"></i></div>
+            <div class="fs-4"><i class="bi bi-youtube"></i></div>
+            <div class="fs-4"><i class="bi bi-linkedin"></i></div>
+          </div>
+        </div>
+
+        <!-- First Row of Images -->
+        <div
+          class="d-flex justify-content-center align-items-center my-3 flex-wrap gap-4"
+        >
+          <div class="d-flex align-items-center text-start me-3 gap-2">
+            <img
+              src="/images/european-union.png"
+              class="european-union"
+              alt="European Union Logo"
+            />
+            <h5 class="fs-5 fw-bold">
+              Funded by <br />
+              the European Union
+            </h5>
+          </div>
+          <div class="text-center">
+            <img
+              src="/images/denr-1987.png"
+              class="denr-1987"
+              alt="DENR Logo"
+            />
+          </div>
+        </div>
+
+        <!-- Second Row of Images -->
+        <div
+          class="mt-5 d-flex flex-wrap justify-content-between align-items-center gap-4"
+        >
+          <img src="/images/denr.png" class="denr" alt="Logo 3" />
+          <img src="/images/giz.png" class="giz" alt="Logo 4" />
+          <img src="/images/dilg.png" class="dilg" alt="Logo 5" />
+          <img src="/images/undp.png" class="undp" alt="Logo 6" />
+          <img src="/images/dti.png" class="dti" alt="Logo 7" />
+          <img
+            src="/images/expertise-france-logo.png"
+            class="expertise-france"
+            alt="Logo 8"
+          />
+          <img src="/images/gggi.png" class="gggi" alt="Logo 10" />
+          <img src="/images/doe.png" class="doe" alt="Logo 9" />
+          <img src="/images//IFC-Logo.png" class="ifc" alt="Logo 10" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

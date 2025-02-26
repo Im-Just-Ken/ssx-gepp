@@ -1,0 +1,79 @@
+.european-union {
+  height: 70px;
+  width: 100px;
+}
+
+.footer-text-color {
+  color: var(--unnamed-color-005f3c);
+}
+.footer-color {
+  border-color: var(--unnamed-color-005f3c);
+}
+
+.denr-1987 {
+  height: 80px;
+  width: 80px;
+}
+
+.giz {
+  width: 70px;
+  height: 70px;
+}
+.denr {
+  width: 70px;
+  height: 70px;
+}
+
+.dilg {
+  width: 70px;
+  height: 70px;
+}
+
+.expertise-france {
+  height: 70px;
+  width: 170px;
+}
+
+.gggi {
+  height: 70px;
+  width: 170px;
+}
+
+.undp {
+  height: 70px;
+  width: 30px;
+}
+
+.doe {
+  width: 70px;
+  height: 70px;
+}
+
+.ifc {
+  width: 380px;
+  height: 70px;
+}
+.dti {
+  height: 70px;
+  width: 70px;
+}
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+/*? LAPTOPS/PC */
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/*? XL SCREENS */
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
