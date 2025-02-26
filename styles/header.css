@@ -22,10 +22,19 @@ body {
   font-weight: var(--unnamed-font-weight-normal);
   line-height: var(--unnamed-line-spacing-26);
   font-style: var(--unnamed-font-style-normal);
-  background-image: url("https://placehold.co/1920x1080");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://placehold.co/1920x1080");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scrolled {
+  background-color: rgba(var(--unnamed-color-scroll-367938), 0.9);
 }
 
 /*? WIDTH :: HEADER TITLE*/
@@ -47,7 +56,9 @@ body {
 .text-size-16 {
   font-size: 16px;
 }
-
+header {
+  height: 100px;
+}
 .custom-container {
   max-width: 95%; /* Default max width */
   margin: 0 auto; /* Centering */

@@ -16,10 +16,12 @@
     ></script>
     <link rel="stylesheet" href="/styles/root.css" />
     <link rel="stylesheet" href="/styles/header.css" />
-    <link rel="stylesheet" href="/styles/hero.css" />
-    <link rel="stylesheet" href="/styles/section1.css" />
-    <link rel="stylesheet" href="/styles/section2.css" />
+    <link rel="stylesheet" href="/styles/home/hero.css" />
+    <link rel="stylesheet" href="/styles/home/section1.css" />
+    <link rel="stylesheet" href="/styles/home/section2.css" />
+    <link rel="stylesheet" href="/styles/home/section4.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
@@ -27,45 +29,51 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="custom-container position-fixed end-0 start-0 z-3">
-      <nav class="d-flex justify-content-between">
-        <div>
-          <div class="text-size-20 bold-text w-276-title text-header-title">
-            Green Economy Programme in the Philippines
+    <header class="navbar position-fixed end-0 start-0 z-3">
+      <nav class="custom-container position-fixed end-0 start-0 top-0">
+        <div class="d-flex justify-content-between">
+          <div>
+            <div
+              class="text-size-20 bold-text w-276-title text-header-title text-white"
+            >
+              Green Economy Programme in the Philippines
+            </div>
           </div>
-        </div>
-        <!-- MENU FOR SMALL SCREEN -->
-        <i
-          class="bi bi-list fs-2 d-lg-none"
-          id="hamburgerIcon"
-          style="cursor: pointer"
-        ></i>
-        <!-- MENU FOR LARGE SCREEN -->
-        <div class="d-none d-lg-flex gap-4 fs-6 align-items-center">
-          <h1 class="text-size-16"><i class="bi bi-house-door-fill"></i></h1>
+          <!-- MENU FOR SMALL SCREEN -->
+          <i
+            class="bi bi-list fs-2 d-lg-none"
+            id="hamburgerIcon"
+            style="cursor: pointer"
+          ></i>
+          <!-- MENU FOR LARGE SCREEN -->
+          <div
+            class="d-none d-lg-flex gap-4 fs-6 align-items-center text-white"
+          >
+            <h1 class="text-size-16"><i class="bi bi-house-door-fill"></i></h1>
 
-          <h1 class="text-size-16">
-            About Green Economy <i class="bi bi-arrow-down-circle-fill"></i>
-          </h1>
-          <h1 class="text-size-16">Learning Center</h1>
-          <h1 class="text-size-16">
-            Learning Center <i class="bi bi-arrow-down-circle-fill"></i>
-          </h1>
-          <h1 class="text-size-16">
-            Collaboration <i class="bi bi-arrow-down-circle-fill"></i>
-          </h1>
-          <h1 class="text-size-16">Highlights</h1>
-          <h1 class="text-size-16">Events</h1>
-          <h1 class="text-size-16">
-            Community <i class="bi bi-arrow-down-circle-fill"></i>
-          </h1>
-          <h1 class="text-size-16">Connect with Us</h1>
+            <h1 class="text-size-16">
+              About Green Economy <i class="bi bi-arrow-down-circle-fill"></i>
+            </h1>
+            <h1 class="text-size-16">Learning Center</h1>
+            <h1 class="text-size-16">
+              Learning Center <i class="bi bi-arrow-down-circle-fill"></i>
+            </h1>
+            <h1 class="text-size-16">
+              Collaboration <i class="bi bi-arrow-down-circle-fill"></i>
+            </h1>
+            <h1 class="text-size-16">Highlights</h1>
+            <h1 class="text-size-16">Events</h1>
+            <h1 class="text-size-16">
+              Community <i class="bi bi-arrow-down-circle-fill"></i>
+            </h1>
+            <h1 class="text-size-16">Connect with Us</h1>
+          </div>
         </div>
       </nav>
     </header>
     <section class="hero">
       <div
-        class="d-flex flex-column pt-pb-hero text-center justify-content-center align-items-center"
+        class="d-flex flex-column pt-pb-hero text-center justify-content-center align-items-center text-white"
       >
         <h1 class="hero-heading-1">
           Accelerating the Philippines’ Green Transition
@@ -305,7 +313,7 @@
         </div>
       </div>
     </section>
-    <section class="section-4 bg-warning text-center py-5">
+    <section class="section-4 section4-bg-color text-center py-5">
       <h1 class="mb-4">LATEST NEWS</h1>
       <div class="custom-container">
         <div class="row g-4">
@@ -471,4 +479,5 @@
       </div>
     </footer>
   </body>
+  <script src="/js/navbar.js"></script>
 </html>
