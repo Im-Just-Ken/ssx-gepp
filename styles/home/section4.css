@@ -1,3 +1,170 @@
 .section4-bg-color {
   background-color: var(--unnamed-color-e6f2e6);
 }
+
+.section4-title-text-color {
+  color: var(--unnamed-color-005f3c);
+}
+
+.section4-title-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-family-helvetica-neue);
+}
+
+.section4-tag-text {
+  font: italic normal 300 var(--unnamed-font-family-helvetica-neue);
+  letter-spacing: 0px;
+  color: var(--unnamed-color-005f3c);
+  text-align: left;
+  opacity: 1;
+}
+
+.section-overview-text {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-family-helvetica-neue);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-010101);
+  text-align: left;
+  opacity: 1;
+}
+
+.section4-link-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-family-helvetica-neue);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-005f3c);
+  text-align: left;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.section-4-button-color {
+  background-color: var(--unnamed-color-005f3c);
+}
+
+.section4-button-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-family-helvetica-neue);
+  color: var(--unnamed-color-f9f9f6);
+}
+
+/* Custom font size class */
+.section4-text-title-size {
+  font-size: 20px;
+}
+
+.section-text-tag-text-size {
+  font-size: 15px;
+}
+.section4-overview-text-size {
+  font-size: 10px;
+}
+
+.section4-link-text-size {
+  font-size: 15px;
+}
+
+@media (min-width: 576px) {
+  .section4-text-title-size {
+    font-size: 20px;
+  }
+
+  .section-text-tag-text-size {
+    font-size: 15px;
+  }
+  .section4-overview-text-size {
+    font-size: 10px;
+  }
+
+  .section4-link-text-size {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section4-text-title-size {
+    font-size: 30px;
+  }
+
+  .section-text-tag-text-size {
+    font-size: 16px;
+  }
+  .section4-overview-text-size {
+    font-size: 16px;
+  }
+
+  .section4-link-text-size {
+    font-size: 20px;
+  }
+}
+
+/*? LAPTOPS/PC */
+@media (min-width: 992px) {
+  .section4-text-title-size {
+    font-size: 30px;
+  }
+
+  .section-text-tag-text-size {
+    font-size: 16px;
+  }
+  .section4-overview-text-size {
+    font-size: 16px;
+  }
+
+  .section4-link-text-size {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section4-text-title-size {
+    font-size: 30px;
+  }
+
+  .section-text-tag-text-size {
+    font-size: 16px;
+  }
+  .section4-overview-text-size {
+    font-size: 16px;
+  }
+
+  .section4-link-text-size {
+    font-size: 20px;
+  }
+}
+
+/*? XL SCREENS */
+
+@media (min-width: 1400px) {
+  .section4-text-title-size {
+    font-size: 30px;
+  }
+
+  .section-text-tag-text-size {
+    font-size: 16px;
+  }
+  .section4-overview-text-size {
+    font-size: 16px;
+  }
+
+  .section4-link-text-size {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .section4-text-title-size {
+    font-size: 30px;
+  }
+
+  .section-text-tag-text-size {
+    font-size: 16px;
+  }
+  .section4-overview-text-size {
+    font-size: 16px;
+  }
+
+  .section4-link-text-size {
+    font-size: 20px;
+  }
+}
