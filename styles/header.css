@@ -23,7 +23,7 @@ body {
   line-height: var(--unnamed-line-spacing-26);
   font-style: var(--unnamed-font-style-normal);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://placehold.co/1920x1080");
+    url("https://picsum.photos/seed/picsum/812/512");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

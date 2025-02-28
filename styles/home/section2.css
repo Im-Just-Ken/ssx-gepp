@@ -1,3 +1,14 @@
+.section2-font-family {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-45) / var(--unnamed-line-spacing-55)
+    var(--unnamed-font-family-helvetica-neue);
+  color: white;
+}
+
+.section2-bg-color {
+  background: var(--unnamed-color-005f3c);
+}
+
 .section2-text-size {
   font-size: 20px;
 }

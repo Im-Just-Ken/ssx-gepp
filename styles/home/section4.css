@@ -1,3 +1,22 @@
+/*? START SECTION 4 BUTTON*/
+.section4-button-color {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-family-helvetica-neue);
+  color: var(--unnamed-color-f9f9f6);
+  background-color: var(--unnamed-color-005f3c);
+  border: none;
+  border-radius: 10px;
+}
+
+.section4-button-padding {
+  padding: 9px 20px 9px 20px;
+}
+
+.section4-button-text-size {
+  font-size: 15px;
+}
+/*? END SECTION 4 BUTTON*/
+
 .section4-bg-color {
   background-color: var(--unnamed-color-e6f2e6);
 }
@@ -38,16 +57,6 @@
   opacity: 1;
 }
 
-.section-4-button-color {
-  background-color: var(--unnamed-color-005f3c);
-}
-
-.section4-button-text {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-family-helvetica-neue);
-  color: var(--unnamed-color-f9f9f6);
-}
-
 /* Custom font size class */
 .section4-text-title-size {
   font-size: 20px;
@@ -79,6 +88,9 @@
   .section4-link-text-size {
     font-size: 15px;
   }
+  .section4-button-text-size {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -94,6 +106,9 @@
   }
 
   .section4-link-text-size {
+    font-size: 20px;
+  }
+  .section4-button-text-size {
     font-size: 20px;
   }
 }
@@ -114,6 +129,9 @@
   .section4-link-text-size {
     font-size: 20px;
   }
+  .section4-button-text-size {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -129,6 +147,9 @@
   }
 
   .section4-link-text-size {
+    font-size: 20px;
+  }
+  .section4-button-text-size {
     font-size: 20px;
   }
 }
@@ -150,6 +171,9 @@
   .section4-link-text-size {
     font-size: 20px;
   }
+  .section4-button-text-size {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -165,6 +189,9 @@
   }
 
   .section4-link-text-size {
+    font-size: 20px;
+  }
+  .section4-button-text-size {
     font-size: 20px;
   }
 }

@@ -15,9 +15,9 @@
   font-size: 10px;
 }
 
-.hero-heading-3-w {
+/* .hero-heading-3-w {
   width: 300px;
-}
+} */
 
 /*? TABLETS */
 @media (min-width: 576px) {
@@ -30,9 +30,9 @@
   .hero-heading-3 {
     font-size: 14px;
   }
-  .hero-heading-3-w {
+  /* .hero-heading-3-w {
     width: 450px;
-  }
+  } */
   .pt-pb-hero {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -49,9 +49,9 @@
   .hero-heading-3 {
     font-size: 13px;
   }
-  .hero-heading-3-w {
+  /* .hero-heading-3-w {
     width: 570px;
-  }
+  } */
   .pt-pb-hero {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -69,12 +69,12 @@
   .hero-heading-3 {
     font-size: 15px;
   }
-  .hero-heading-3-w {
+  /* .hero-heading-3-w {
     width: 603px;
-  }
-  .hero-heading-3-w {
+  } */
+  /* .hero-heading-3-w {
     width: 600px;
-  }
+  } */
   .pt-pb-hero {
     padding-top: 241px;
     padding-bottom: 150px;
@@ -91,12 +91,12 @@
   .hero-heading-3 {
     font-size: 20px;
   }
-  .hero-heading-3-w {
+  /* .hero-heading-3-w {
     width: 943px;
-  }
-  .hero-heading-3-w {
+  } */
+  /* .hero-heading-3-w {
     width: 800px;
-  }
+  } */
   .pt-pb-hero {
     padding-top: 241px;
     padding-bottom: 150px;
@@ -114,9 +114,9 @@
   .hero-heading-3 {
     font-size: 20px;
   }
-  .hero-heading-3-w {
+  /* .hero-heading-3-w {
     width: 943px;
-  }
+  } */
   .pt-pb-hero {
     padding-top: 241px;
     padding-bottom: 150px;
@@ -133,9 +133,9 @@
   .hero-heading-3 {
     font-size: 20px;
   }
-  .hero-heading-3-w {
+  /* .hero-heading-3-w {
     width: 943px;
-  }
+  } */
   .pt-pb-hero {
     padding-top: 241px;
     padding-bottom: 150px;
