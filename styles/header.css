@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --unnamed-font-style-normal: normal;
   --unnamed-font-weight-bold: 700;
   --unnamed-font-weight-medium: 500;
@@ -6,17 +6,17 @@
   --unnamed-font-size-16: 16px;
   --unnamed-font-size-30: 30px;
   --unnamed-line-spacing-26: 26px;
-  --unnamed-font-family-helvetica-neue: "Helvetica Neue", Arial, sans-serif;
+  --unnamed-font-family-helvetica-neue: "Helvetica Neue", Arial, sans-serif; */
 
-  /* Global Colors */
-  --color-light: #f9f9f6;
+/* Global Colors */
+/* --color-light: #f9f9f6;
   --color-dark: #1e1e1b;
   --color-accent: #005f3c;
   --color-black: #010101;
   --color-muted: #e6f2e6;
-}
+} */
 
-body {
+.home-body {
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-size: var(--unnamed-font-size-16);
   font-weight: var(--unnamed-font-weight-normal);
@@ -24,6 +24,31 @@ body {
   font-style: var(--unnamed-font-style-normal);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://picsum.photos/seed/picsum/812/512");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ge-body {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-size: var(--unnamed-font-size-16);
+  font-weight: var(--unnamed-font-weight-normal);
+  line-height: var(--unnamed-line-spacing-26);
+  font-style: var(--unnamed-font-style-normal);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://picsum.photos/id/23/812/512");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.lc-body {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-size: var(--unnamed-font-size-16);
+  font-weight: var(--unnamed-font-weight-normal);
+  line-height: var(--unnamed-line-spacing-26);
+  font-style: var(--unnamed-font-style-normal);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://picsum.photos/id/20/812/512");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -48,8 +73,8 @@ body {
 .text-header-title {
   font: var(--unnamed-font-style-normal) 500 var(--unnamed-font-weight-bold)
     var(--unnamed-font-family-helvetica-neue);
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 /*? TEXT SIZE :: HEADER DEFAULT */

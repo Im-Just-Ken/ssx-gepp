@@ -1,0 +1,15 @@
+.pop-up-title {
+  font: var(--unnamed-font-family-helvetica-neue);
+  color: var(--unnamed-color-005f3c);
+}
+.pop-up-title-text-size {
+  font-size: 35px;
+}
+
+.pop-up-text-info {
+  font: var(--unnamed-line-spacing-26) var(--unnamed-font-family-helvetica-neue);
+}
+
+.pop-up-text-info-size {
+  font-size: 16px;
+}

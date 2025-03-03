@@ -260,3 +260,76 @@
     padding-bottom: 10px;
   }
 }
+
+/* Default: Full width on small screens */
+.event {
+  width: 100%;
+}
+
+.event-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Small screens (≥576px) */
+@media (min-width: 576px) {
+  .event {
+    width: 100%;
+  }
+  .event-layout-sm {
+    flex-direction: column;
+  }
+}
+
+/* Medium screens (≥768px) */
+@media (min-width: 768px) {
+  .event {
+    width: 100%;
+  }
+  .event-layout-md {
+    flex-direction: row;
+  }
+}
+
+/* Large screens (≥992px) */
+@media (min-width: 992px) {
+  .event {
+    width: 50%;
+  }
+  .event-layout-lg {
+    flex-direction: column;
+  }
+}
+
+/* Extra large screens (≥1400px) */
+@media (min-width: 1400px) {
+  .event {
+    width: 50%;
+  }
+  .event-layout-l {
+    flex-direction: row;
+  }
+}
+
+/* Extra wide screens (≥1600px) */
+@media (min-width: 1600px) {
+  .event {
+    width: 50%;
+  }
+  .event-layout-md {
+    flex-direction: column;
+  }
+  .event-layout-xl {
+    flex-direction: row;
+  }
+}
+
+/* Ultra-wide screens (≥1920px) */
+@media (min-width: 1920px) {
+  .event {
+    width: 50%;
+  }
+  .event-layout-xxl {
+    flex-direction: row;
+  }
+}

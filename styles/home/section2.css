@@ -1,3 +1,15 @@
+/*? LEARNING CENTER*/
+.lc-section2-text-size {
+  font-size: 35px;
+}
+
+.lc-section2-text {
+  color: var(--unnamed-color-f9f9f6);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    35px/40px var(--unnamed-font-family-helvetica-neue);
+}
+/*? END LEARNING CENTER*/
+
 .section2-font-family {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
     var(--unnamed-font-size-45) / var(--unnamed-line-spacing-55)
