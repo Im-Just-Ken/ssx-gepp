@@ -1,3 +1,29 @@
+/*? ABOUT GEPP*/
+
+.about-gepp-section2-title-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    80px/97px var(--unnamed-font-family-helvetica-neue);
+  color: var(--unnamed-color-f9f9f6);
+}
+.about-gepp-section2-title-text-size {
+  font-size: 80px;
+}
+.about-gepp-section2-info-text {
+  font: var(--unnamed-font-family-helvetica-neue);
+  line-height: normal;
+  color: var(--unnamed-color-f9f9f6);
+}
+
+.about-gepp-section2-info-text-size {
+  font-size: 40px;
+}
+
+.about-gepp-section2-padding-y {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+/*? END ABOUT GEPP*/
+
 /*? LEARNING CENTER*/
 .lc-section2-text-size {
   font-size: 35px;

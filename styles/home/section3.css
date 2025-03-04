@@ -1,3 +1,43 @@
+/*? ABOUT GEPP */
+.about-gepp-section3-giz-icon {
+  height: 60px;
+  width: 73px;
+}
+
+.about-gepp-section3-undp-icon {
+  height: 60px;
+  width: 30px;
+}
+
+.about-gepp-section3-expertise-france-icon {
+  height: 60px;
+  width: 175px;
+}
+.about-gepp-section3-gggi-icon {
+  width: 161px;
+  height: 60px;
+}
+.about-gepp-section3-gepp-icon {
+  height: 60px;
+  width: 161px;
+}
+.about-gepp-section3-ifc-icon {
+  height: 60px;
+  width: 340px;
+}
+
+.about-gepp-section3-card-title-text {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-medium) var(--unnamed-font-size-30) /
+    var(--unnamed-line-spacing-37) var(--unnamed-font-family-helvetica-neue);
+  line-height: normal;
+}
+
+.about-gepp-section3-card-title-text-size {
+  font-size: 30px;
+}
+/*? END ABOUT GEPP */
+
 /*? IMAGE */
 
 .section3-image-styles {
