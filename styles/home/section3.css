@@ -57,6 +57,10 @@
 .section3-image-badge-text-size {
   font-size: 16px;
 }
+
+.section2-image-mb {
+  margin-bottom: 48px;
+}
 /*? END IMAGE*/
 
 /*? START SECTION 3 BUTTON*/
@@ -223,6 +227,9 @@
   .section3-text-info-padding {
     padding-top: 15px;
     padding-bottom: 10px;
+  }
+  .section2-image-mb {
+    margin-bottom: 48px;
   }
 }
 
