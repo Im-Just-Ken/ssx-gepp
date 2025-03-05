@@ -76,8 +76,8 @@
 }
 
 /*? WIDTH :: HEADER TITLE*/
-.w-276-title {
-  width: 276px;
+.w-header-title {
+  width: 230px;
   font-weight: bold;
 }
 
@@ -115,7 +115,7 @@ header {
     max-width: 90%;
     padding: 25px 0 25px 0;
   }
-  .w-276-title {
+  .w-header-title {
     width: 400px;
   }
   .text-header-title {
@@ -136,7 +136,7 @@ header {
     max-width: 90%;
     padding: 25px 0 25px 0;
   }
-  .w-276-title {
+  .w-header-title {
     width: 400px;
   }
   .text-header-title {
@@ -162,8 +162,8 @@ header {
   .text-header-title {
     font-size: 16px;
   }
-  .w-276-title {
-    width: 276px;
+  .w-header-title {
+    width: 230px;
   }
 }
 
@@ -182,8 +182,8 @@ header {
   .text-header-title {
     font-size: 16px;
   }
-  .w-276-title {
-    width: 276px;
+  .w-header-title {
+    width: 230px;
   }
 }
 
@@ -202,7 +202,7 @@ header {
   .text-header-title {
     font-size: 20px;
   }
-  .w-276-title {
+  .w-header-title {
     width: 276px;
   }
 }
@@ -221,7 +221,7 @@ header {
   .text-header-title {
     font-size: 20px;
   }
-  .w-276-title {
+  .w-header-title {
     width: 276px;
   }
 }
