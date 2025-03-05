@@ -86,8 +86,8 @@
 .text-header-title {
   font: var(--unnamed-font-style-normal) 500 var(--unnamed-font-weight-bold)
     var(--unnamed-font-family-helvetica-neue);
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /*? TEXT SIZE :: HEADER DEFAULT */
