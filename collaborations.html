@@ -32,50 +32,102 @@
   <body class="home-body">
     <header class="navbar position-fixed end-0 start-0 z-3">
       <nav class="custom-container position-fixed end-0 start-0 top-0">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between align-items-center px-3">
           <div>
             <div
-              class="text-size-20 fw-semibold w-276-title text-header-title text-white"
+              class="fw-semibold w-header-title text-header-title text-white"
             >
               Green Economy Programme in the Philippines
             </div>
           </div>
           <!-- MENU FOR SMALL SCREEN -->
           <i
-            class="bi bi-list fs-2 d-lg-none"
+            class="bi bi-list fs-2 d-xl-none"
             id="hamburgerIcon"
             style="cursor: pointer"
           ></i>
           <!-- MENU FOR LARGE SCREEN -->
           <div
-            class="d-none d-lg-flex gap-4 fs-6 align-items-center text-white"
+            class="d-none d-xl-flex gap-4 fs-6 align-items-center text-white"
           >
             <h1 class="text-size-16">
               <a
-                href="http://127.0.0.1:5500/views/home.html"
+                href="http://127.0.0.1:5500/index.html"
+                class="nav-link"
                 style="color: white; text-decoration: none"
               >
                 <i class="bi bi-house-door-fill"></i>
               </a>
             </h1>
 
-            <h1 class="text-size-16">
+            <h1 class="text-size-16 dropdown">
               <a
-                href="http://127.0.0.1:5500/views/green-economy.html"
+                class="nav-link dropdown-toggle d-flex align-items-center"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
                 style="color: white; text-decoration: none"
               >
-                About Green Economy <i class="bi bi-arrow-down-circle-fill"></i>
+                About Green Economy
+                <i
+                  class="bi bi-chevron-down chevron-icon ms-2"
+                  id="chevronIcon"
+                ></i>
               </a>
+              <ul
+                class="mt-2 about-green-economy-dropdown about-green-economy-dropdown-width dropdown-menu"
+                aria-labelledby="aboutDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item dropdown-text"
+                    href="green-economy.html"
+                    >Green Economy</a
+                  >
+                </li>
+                <li><div class="custom-divider"></div></li>
+                <li>
+                  <a class="dropdown-item dropdown-text" href="about-gepp.html"
+                    >About GEPP</a
+                  >
+                </li>
+              </ul>
             </h1>
 
-            <h1 class="text-size-16">
+            <!-- Learning Center Dropdown -->
+            <h1 class="text-size-16 dropdown">
               <a
-                href="http://127.0.0.1:5500/views/learning-center.html"
+                class="nav-link dropdown-toggle d-flex align-items-center"
+                id="learningDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
                 style="color: white; text-decoration: none"
               >
-                Learning Center <i class="bi bi-arrow-down-circle-fill"></i>
+                Learning Center
+                <i class="bi bi-chevron-down chevron-icon ms-2"></i>
               </a>
+              <ul
+                class="mt-2 dropdown-menu learning-center-dropdown"
+                aria-labelledby="learningDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item dropdown-text"
+                    href="collaborations.html"
+                    >Asean Hub</a
+                  >
+                </li>
+                <li><div class="custom-divider"></div></li>
+                <li>
+                  <a class="dropdown-item dropdown-text" href="eu-hub.html"
+                    >EU Hub</a
+                  >
+                </li>
+              </ul>
             </h1>
+
             <h1 class="text-size-16">
               <a
                 href="http://127.0.0.1:5500/views/collaborations.html"
@@ -199,25 +251,21 @@
     <footer class="footer bg-light py-4">
       <div class="custom-container">
         <div class="border-top border-3 border-success"></div>
-        <div class="row mt-4 align-items-center text-center text-md-start">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-between footer-mt-top text-center text-md-start"
+        >
           <!-- First Column: Long EU text -->
-          <div class="col-12 col-md-auto text-center">
-            <p class="fw-bold footer-text-size footer-text-color m-0">
-              EU-PH Green Economy Programme in the Philippines (GEPP)
-            </p>
-          </div>
+          <p class="fw-bold footer-text-size footer-text-color m-0">
+            EU-PH Green Economy Programme in the Philippines (GEPP)
+          </p>
 
           <!-- Spacer Column to push icons to the right -->
-          <div class="col">
-            <p class="fw-bold footer-text-size footer-text-color m-0">
-              Privacy Policy | Cookie Policy
-            </p>
-          </div>
+          <p class="fw-bold footer-text-size footer-text-color mt-3">
+            Privacy Policy | Cookie Policy
+          </p>
 
           <!-- Last Column: Social Icons -->
-          <div
-            class="col-12 col-md-auto d-flex gap-3 align-items-center justify-content-center footer-text-color"
-          >
+          <div class="d-flex gap-3 align-items-center footer-text-color">
             <div class="footer-text-size"><i class="bi bi-facebook"></i></div>
             <div class="footer-text-size"><i class="bi bi-reddit"></i></div>
             <div class="footer-text-size"><i class="bi bi-instagram"></i></div>
@@ -229,7 +277,7 @@
 
         <!-- First Row of Images -->
         <div
-          class="d-flex flex-wrap justify-content-center align-items-center my-3 gap-4"
+          class="d-flex flex-wrap justify-content-center align-items-center my-5 gap-4"
         >
           <div class="d-flex align-items-center text-start me-3 gap-2">
             <img
@@ -257,7 +305,7 @@
 
         <!-- Second Row of Images -->
         <div
-          class="mt-5 d-flex flex-wrap footer-justify align-items-center gap-5"
+          class="mt-5 d-flex flex-wrap footer-justify align-items-center footer-icons-gap"
         >
           <img src="/images/denr.png" class="denr" alt="Logo 3" />
           <img src="/images/giz.png" class="giz" alt="Logo 4" />

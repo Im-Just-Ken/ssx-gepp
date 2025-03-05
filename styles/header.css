@@ -1,21 +1,115 @@
-/* :root {
-  --unnamed-font-style-normal: normal;
-  --unnamed-font-weight-bold: 700;
-  --unnamed-font-weight-medium: 500;
-  --unnamed-font-weight-normal: 400;
-  --unnamed-font-size-16: 16px;
-  --unnamed-font-size-30: 30px;
-  --unnamed-line-spacing-26: 26px;
-  --unnamed-font-family-helvetica-neue: "Helvetica Neue", Arial, sans-serif; */
+/*? ABOUT GREEN ECONOMY*/
+#chevronIcon {
+  transition: transform 0.15s ease-in-out;
+}
 
-/* Global Colors */
-/* --color-light: #f9f9f6;
-  --color-dark: #1e1e1b;
-  --color-accent: #005f3c;
-  --color-black: #010101;
-  --color-muted: #e6f2e6;
-} */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+}
 
+.nav-link.active {
+  font-weight: bold;
+  color: #f4e3c1 !important;
+}
+/* Remove Bootstrap's default caret (arrow) */
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.custom-divider {
+  width: 80%; /* Controls the length of the divider */
+  height: 1px;
+  background-color: #4c7756;
+  margin: 4px auto; /* Centers the divider */
+}
+
+.about-green-economy-dropdown {
+  border: 1px solid var(--unnamed-color-005f3c);
+  border-radius: 10px;
+  background: var(--unnamed-color-e6f2e6) 0% 0% no-repeat padding-box;
+}
+
+#aboutDropdown {
+  transition: color 0.3s ease-in-out;
+}
+.about-green-economy-dropdown-width {
+  width: 190px;
+}
+.dropdown-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / 19px var(--unnamed-font-family-helvetica-neue);
+  color: var(--unnamed-color-005f3c);
+}
+.about-green-economy-dropdown .dropdown-item:hover {
+  background: var(--unnamed-color-e6f2e6) 0% 0% no-repeat padding-box;
+  color: var(--unnamed-color-005f3c) !important;
+}
+
+/*? END ABOUT GREEN ECONOMY*/
+
+/*? LEARNING CENTER*/
+.learning-center-dropdown-width {
+  width: 70px;
+}
+
+.learning-center-dropdown {
+  border: 1px solid var(--unnamed-color-005f3c);
+  border-radius: 10px;
+  background: var(--unnamed-color-e6f2e6) 0% 0% no-repeat padding-box;
+}
+
+#learnDropDown {
+  transition: color 0.3s ease-in-out;
+}
+/*? END LEARNING CENTER*/
+
+/*? COLLABORATIONS*/
+.collaborations-dropdown-width {
+  width: 250px;
+}
+
+.collaborations-dropdown {
+  border: 1px solid var(--unnamed-color-005f3c);
+  border-radius: 10px;
+  background: var(--unnamed-color-e6f2e6) 0% 0% no-repeat padding-box;
+}
+
+#collaborationsDropDown {
+  transition: color 0.3s ease-in-out;
+}
+/*? END COLLABORATIONS*/
+/*? WHATS NEW*/
+.whats-new-dropdown-width {
+  width: 50px;
+}
+
+.whats-new-dropdown {
+  border: 1px solid var(--unnamed-color-005f3c);
+  border-radius: 10px;
+  background: var(--unnamed-color-e6f2e6) 0% 0% no-repeat padding-box;
+}
+
+#whatsnewDropDown {
+  transition: color 0.3s ease-in-out;
+}
+/*? END WHATS NEW*/
+/*? COMMUNITY*/
+.whats-new-dropdown-width {
+  width: 10px;
+}
+
+.whats-new-dropdown {
+  border: 1px solid var(--unnamed-color-005f3c);
+  border-radius: 10px;
+  background: var(--unnamed-color-e6f2e6) 0% 0% no-repeat padding-box;
+}
+
+#community-dropdown {
+  transition: color 0.3s ease-in-out;
+}
+/*? END COMMUNITY*/
 .home-body {
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-size: var(--unnamed-font-size-16);
@@ -197,6 +291,9 @@ header {
   header {
     height: 100px;
   }
+  .about-green-economy-dropdown-width {
+    width: 100px;
+  }
 }
 
 /*? XL SCREENS */
@@ -209,7 +306,7 @@ header {
     padding: 25px 0 25px 0;
   }
   .text-size-16 {
-    font-size: 13px;
+    font-size: 15px;
   }
   .text-header-title {
     font-size: 20px;
@@ -219,6 +316,9 @@ header {
   }
   header {
     height: 100px;
+  }
+  .about-green-economy-dropdown-width {
+    width: 190px;
   }
 }
 
@@ -250,5 +350,8 @@ header {
   }
   header {
     height: 100px;
+  }
+  .about-green-economy-dropdown-width {
+    width: 200px;
   }
 }
