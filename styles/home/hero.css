@@ -3,16 +3,34 @@
   padding-bottom: 100px;
 }
 
+.hero-heading-1-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    60px/74px var(--unnamed-font-family-helvetica-neue);
+}
+
 .hero-heading-1 {
   font-size: 40px;
 }
 
+.hero-heading-2-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-40) var(--unnamed-font-family-helvetica-neue);
+}
 .hero-heading-2 {
   font-size: 25px;
 }
 
 .hero-heading-3 {
   font-size: 16px;
+}
+.hero-heading-3-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-25)
+    var(--unnamed-font-family-helvetica-neue);
+}
+.hero-heading-3-padding {
+  padding-left: none;
+  padding-right: none;
 }
 
 /* .hero-heading-3-w {
@@ -22,13 +40,13 @@
 /*? TABLETS */
 @media (min-width: 576px) {
   .hero-heading-1 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .hero-heading-2 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .hero-heading-3 {
-    font-size: 14px;
+    font-size: 15px;
   }
   /* .hero-heading-3-w {
     width: 450px;
@@ -37,17 +55,21 @@
     padding-top: 150px;
     padding-bottom: 100px;
   }
+  .hero-heading-3-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (min-width: 768px) {
   .hero-heading-1 {
-    font-size: 35px;
+    font-size: 45px;
   }
   .hero-heading-2 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .hero-heading-3 {
-    font-size: 13px;
+    font-size: 15px;
   }
   /* .hero-heading-3-w {
     width: 570px;
@@ -55,6 +77,10 @@
   .pt-pb-hero {
     padding-top: 150px;
     padding-bottom: 100px;
+  }
+  .hero-heading-3-padding {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
@@ -78,6 +104,10 @@
   .pt-pb-hero {
     padding-top: 241px;
     padding-bottom: 150px;
+  }
+  .hero-heading-3-padding {
+    padding-left: 170px;
+    padding-right: 170px;
   }
 }
 
@@ -121,6 +151,10 @@
     padding-top: 241px;
     padding-bottom: 150px;
   }
+  .hero-heading-3-padding {
+    padding-left: 240px;
+    padding-right: 240px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -139,5 +173,9 @@
   .pt-pb-hero {
     padding-top: 241px;
     padding-bottom: 150px;
+  }
+  .hero-heading-3-padding {
+    padding-left: 400px;
+    padding-right: 400px;
   }
 }
