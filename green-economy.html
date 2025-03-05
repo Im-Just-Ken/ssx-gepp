@@ -73,7 +73,7 @@
                 <i class="bi bi-chevron-down" id="chevronIcon"></i>
               </a>
               <ul
-                class="mt-2 about-green-economy-dropdown dropdown-menu"
+                class="mt-2 about-green-economy-dropdown about-green-economy-dropdown-width dropdown-menu"
                 aria-labelledby="aboutDropdown"
               >
                 <li>
@@ -107,7 +107,7 @@
                 <i class="bi bi-chevron-down chevron-icon ms-2"></i>
               </a>
               <ul
-                class="mt-2 dropdown-menu learning-center-dropdown"
+                class="mt-2 dropdown-menu learning-center-dropdown learning-center-dropdown-width"
                 aria-labelledby="learningDropdown"
               >
                 <li>
@@ -123,21 +123,109 @@
                     >EU Hub</a
                   >
                 </li>
+                <li><div class="custom-divider"></div></li>
+                <li>
+                  <a class="dropdown-item dropdown-text" href="eu-hub.html"
+                    >EU Hub</a
+                  >
+                </li>
               </ul>
             </h1>
 
-            <h1 class="text-size-16">
+            <h1 class="text-size-16 dropdown">
               <a
-                href="http://127.0.0.1:5500/views/collaborations.html"
+                class="nav-link dropdown-toggle d-flex align-items-center"
+                id="learningDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
                 style="color: white; text-decoration: none"
               >
-                Collaboration <i class="bi bi-arrow-down-circle-fill"></i>
+                Collaborations
+                <i class="bi bi-chevron-down chevron-icon ms-2"></i>
               </a>
+              <ul
+                class="mt-2 dropdown-menu collaborations-dropdown-width collaborations-dropdown"
+                aria-labelledby="collaborationsDropDown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item dropdown-text"
+                    href="collaborations.html"
+                    >Innovative Hub</a
+                  >
+                </li>
+                <li><div class="custom-divider"></div></li>
+                <li>
+                  <a class="dropdown-item dropdown-text" href="eu-hub.html"
+                    >Sustainability Solutions Hub</a
+                  >
+                </li>
+              </ul>
             </h1>
-            <h1 class="text-size-16">Highlights</h1>
-            <h1 class="text-size-16">Events</h1>
-            <h1 class="text-size-16">
-              Community <i class="bi bi-arrow-down-circle-fill"></i>
+
+            <h1 class="text-size-16 dropdown">
+              <a
+                class="nav-link dropdown-toggle d-flex align-items-center"
+                id="learningDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: white; text-decoration: none"
+              >
+                What's News?
+                <i class="bi bi-chevron-down chevron-icon ms-2"></i>
+              </a>
+              <ul
+                class="mt-2 dropdown-menu whats-new-dropdown whats-new-dropdown-width"
+                aria-labelledby="whats-new-dropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item dropdown-text"
+                    href="collaborations.html"
+                    >News</a
+                  >
+                </li>
+                <li><div class="custom-divider"></div></li>
+                <li>
+                  <a class="dropdown-item dropdown-text" href="eu-hub.html"
+                    >Events</a
+                  >
+                </li>
+              </ul>
+            </h1>
+
+            <h1 class="text-size-16 dropdown">
+              <a
+                class="nav-link dropdown-toggle d-flex align-items-center"
+                id="learningDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: white; text-decoration: none"
+              >
+                Community
+                <i class="bi bi-chevron-down chevron-icon ms-2"></i>
+              </a>
+              <ul
+                class="mt-2 dropdown-menu community-dropdown community-dropdown-width"
+                aria-labelledby="community-dropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item dropdown-text"
+                    href="collaborations.html"
+                    >Discussion Space</a
+                  >
+                </li>
+                <li><div class="custom-divider"></div></li>
+                <li>
+                  <a class="dropdown-item dropdown-text" href="eu-hub.html"
+                    >Comming soon</a
+                  >
+                </li>
+              </ul>
             </h1>
             <h1 class="text-size-16">Connect with Us</h1>
           </div>
@@ -149,12 +237,14 @@
         <div
           class="d-flex flex-column pt-pb-hero text-center justify-content-center align-items-center text-white flex-wrap ps-3 pe-3"
         >
-          <h1 class="hero-heading-1">About Green Economy</h1>
-          <h1 class="hero-heading-2">
+          <h1 class="hero-heading-1 hero-heading-1-text">
+            About Green Economy
+          </h1>
+          <h1 class="hero-heading-2 hero-heading-2-text">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod
           </h1>
-          <h1 class="hero-heading-3">
+          <h1 class="hero-heading-3 hero-heading-3-padding">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo
@@ -173,7 +263,7 @@
               alt="Placeholder Image"
             />
           </div>
-          <div class="col-lg-6 text-start">
+          <div class="col-lg-6 text-start align-items-start">
             <h1 class="ge-section1-text-size mt-3 lh-mono">
               Suspendisse quis varius mauris. Mauris at nunc interdum, volutpat
               enim sit amet, tempus mi. Nam molestie a nisi et volutpat.
@@ -190,12 +280,24 @@
               ipsum efficitur magna, sed iaculis magna sem non leo. Phasellus ac
               mollis ipsum. Maecenas ullamcorper velit ac erat semper porta.
             </h1>
+            <h1 class="ge-section1-text-size mt-3 lh-mono">
+              Suspendisse quis varius mauris. Mauris at nunc interdum, volutpat
+              enim sit amet, tempus mi. Nam molestie a nisi et volutpat.Maecenas
+              ullamcorper velit ac erat semper porta. Maecenas ullamcorper velit
+              ac erat semper porta.
+            </h1>
+            <h1 class="ge-section1-text-size mt-3 lh-mono">
+              Suspendisse quis varius mauris. Mauris at nunc interdum, volutpat
+              enim sit amet, tempus mi. Nam molestie a nisi et volutpat.
+            </h1>
           </div>
         </div>
         <div class="custom-container row justify-content-center g-4">
           <!-- Card 1 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 16.png"
                 alt=""
@@ -204,7 +306,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Renewable Energy Sources
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -215,7 +317,9 @@
           </div>
           <!-- Card 2 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 17.png"
                 alt=""
@@ -224,7 +328,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Energy Efficiency Technologies
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -235,7 +339,9 @@
           </div>
           <!-- Card 3 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 18.png"
                 alt=""
@@ -244,7 +350,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Sustainable Transportation
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -255,7 +361,9 @@
           </div>
           <!-- Card 4 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 19.png"
                 alt=""
@@ -264,7 +372,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Green Building Design
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -275,7 +383,9 @@
           </div>
           <!-- Card 5 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 19.png"
                 alt=""
@@ -284,7 +394,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Water Management
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -295,7 +405,9 @@
           </div>
           <!-- Card 6 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 21.png"
                 alt=""
@@ -304,7 +416,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Waste Management
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -315,7 +427,9 @@
           </div>
           <!-- Card 7 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 22.png"
                 alt=""
@@ -324,7 +438,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Sustainable Agriculture
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -335,7 +449,9 @@
           </div>
           <!-- Card 8 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 23.png"
                 alt=""
@@ -344,7 +460,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Circular Economy
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -355,7 +471,9 @@
           </div>
           <!-- Card 9 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 24.png"
                 alt=""
@@ -364,7 +482,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Carbon Capture and Storage
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -375,7 +493,9 @@
           </div>
           <!-- Card 10 -->
           <div class="col-12 col-sm-6 col-lg-6 col-xl-3">
-            <div class="card h-100 px-3 py-5 text-center text-lg-center">
+            <div
+              class="card section1-rounded-card h-100 px-3 py-5 text-center text-lg-center"
+            >
               <img
                 src="/assets/img/icons/Image 25.png"
                 alt=""
@@ -384,7 +504,7 @@
               <h2 class="section1-card-title section1-card-title-text-size">
                 Environmental Policy Development
               </h2>
-              <p class="text-size-16">
+              <p class="section1-card-info-text section1-card-info-text-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -421,8 +541,7 @@
                 <h1
                   class="section3-card-text-title section3-card-text-title-size"
                 >
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod…
+                  Lorem ipsum dolor sit amet, sed diam nonumy eirmod…
                 </h1>
 
                 <p class="section3-text-info-size section3-text-info">
@@ -459,8 +578,7 @@
                 <h1
                   class="section3-card-text-title section3-card-text-title-size"
                 >
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod…
+                  Lorem ipsum dolor sit amet, sed diam nonumy eirmod…
                 </h1>
 
                 <p class="section3-text-info-size section3-text-info">
@@ -497,8 +615,7 @@
                 <h1
                   class="section3-card-text-title section3-card-text-title-size"
                 >
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod…
+                  Lorem ipsum dolor sit amet, sed diam nonumy eirmod…
                 </h1>
 
                 <p class="section3-text-info-size section3-text-info">
@@ -535,8 +652,7 @@
                 <h1
                   class="section3-card-text-title section3-card-text-title-size"
                 >
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod…
+                  Lorem ipsum dolor sit amet, sed diam nonumy eirmod…
                 </h1>
 
                 <p class="section3-text-info-size section3-text-info">
@@ -586,8 +702,7 @@
               </h6>
               <p class="section4-title-text fw-bold section4-text-title-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam
+                diam nonumy aliquyam erat, sed diam
               </p>
 
               <span class="fw-bold section4-link-text-size section4-link-text">
@@ -614,8 +729,7 @@
               </h6>
               <p class="section4-title-text fw-bold section4-text-title-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam
+                diam nonumy aliquyam erat, sed diam
               </p>
 
               <span class="fw-bold section4-link-text-size section4-link-text">
@@ -642,8 +756,7 @@
               </h6>
               <p class="section4-title-text fw-bold section4-text-title-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam
+                diam nonumy aliquyam erat, sed diam
               </p>
 
               <span class="fw-bold section4-link-text-size section4-link-text">
@@ -670,8 +783,7 @@
               </h6>
               <p class="section4-title-text fw-bold section4-text-title-size">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam
+                diam nonumy aliquyam erat, sed diam
               </p>
 
               <span class="fw-bold section4-link-text-size section4-link-text">

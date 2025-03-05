@@ -63,6 +63,11 @@
 #learnDropDown {
   transition: color 0.3s ease-in-out;
 }
+
+.learning-center-dropdown .dropdown-item:hover {
+  background: var(--unnamed-color-e6f2e6) 0% 0% no-repeat padding-box;
+  color: var(--unnamed-color-005f3c) !important;
+}
 /*? END LEARNING CENTER*/
 
 /*? COLLABORATIONS*/

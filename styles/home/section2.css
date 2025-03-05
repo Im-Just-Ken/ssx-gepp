@@ -6,7 +6,7 @@
   color: var(--unnamed-color-f9f9f6);
 }
 .about-gepp-section2-title-text-size {
-  font-size: 80px;
+  font-size: 30px;
 }
 .about-gepp-section2-info-text {
   font: var(--unnamed-font-family-helvetica-neue);
@@ -15,7 +15,7 @@
 }
 
 .about-gepp-section2-info-text-size {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .about-gepp-section2-padding-y {
@@ -55,11 +55,23 @@
   .section2-text-size {
     font-size: 30px;
   }
+  .about-gepp-section2-title-text-size {
+    font-size: 30px;
+  }
+  .about-gepp-section2-info-text-size {
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 768px) {
   .section2-text-size {
     font-size: 35px;
+  }
+  .about-gepp-section2-title-text-size {
+    font-size: 35px;
+  }
+  .about-gepp-section2-info-text-size {
+    font-size: 27px;
   }
 }
 
@@ -68,11 +80,23 @@
   .section2-text-size {
     font-size: 40px;
   }
+  .about-gepp-section2-title-text-size {
+    font-size: 40px;
+  }
+  .about-gepp-section2-info-text-size {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1200px) {
   .section2-text-size {
     font-size: 45px;
+  }
+  .about-gepp-section2-title-text-size {
+    font-size: 45px;
+  }
+  .about-gepp-section2-info-text-size {
+    font-size: 30px;
   }
 }
 
@@ -82,10 +106,22 @@
   .section2-text-size {
     font-size: 45px;
   }
+  .about-gepp-section2-title-text-size {
+    font-size: 80px;
+  }
+  .about-gepp-section2-info-text-size {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 1600px) {
   .section2-text-size {
     font-size: 45px;
+  }
+  .about-gepp-section2-title-text-size {
+    font-size: 80px;
+  }
+  .about-gepp-section2-info-text-size {
+    font-size: 40px;
   }
 }
