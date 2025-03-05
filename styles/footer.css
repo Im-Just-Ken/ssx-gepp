@@ -1,3 +1,11 @@
+.footer-mt-top {
+  margin-top: 40px;
+}
+
+.footer-icons-gap {
+  gap: 30px;
+}
+
 .footer-justify {
   justify-content: center;
 }
@@ -139,6 +147,9 @@
     height: 70px;
     width: 70px;
   }
+  .footer-mt-top {
+    margin-top: 45px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -203,6 +214,9 @@
     height: 70px;
     width: 70px;
   }
+  .footer-mt-top {
+    margin-top: 0px;
+  }
 }
 
 /*? LAPTOPS/PC */
@@ -266,6 +280,9 @@
   .ifc {
     width: 250px;
     height: 40px;
+  }
+  .footer-mt-top {
+    margin-top: 0px;
   }
 }
 
@@ -332,6 +349,12 @@
   .ifc {
     width: 320px;
     height: 50px;
+  }
+  .footer-mt-top {
+    margin-top: 0px;
+  }
+  .footer-icons-gap {
+    gap: 28px;
   }
 }
 
@@ -401,6 +424,12 @@
     width: 310px;
     height: 50px;
   }
+  .footer-mt-top {
+    margin-top: 0px;
+  }
+  .footer-icons-gap {
+    gap: 48px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -469,5 +498,11 @@
   .dti {
     height: 70px;
     width: 70px;
+  }
+  .footer-mt-top {
+    margin-top: 0px;
+  }
+  .footer-icons-gap {
+    gap: 85px;
   }
 }

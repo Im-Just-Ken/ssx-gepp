@@ -8,7 +8,7 @@
     60px/74px var(--unnamed-font-family-helvetica-neue);
 }
 .hero-heading-1 {
-  font-size: 40px;
+  font-size: 35px;
   line-height: normal;
 }
 
@@ -30,8 +30,8 @@
     var(--unnamed-font-family-helvetica-neue);
 }
 .hero-heading-3-padding {
-  padding-left: none;
-  padding-right: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* .hero-heading-3-w {
