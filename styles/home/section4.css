@@ -25,7 +25,8 @@
   padding: 16px 30px 16px 30px;
 }
 .about-gepp-section4-button-text-size {
-  font-size: 30px;
+  font-size: 25px;
+  line-height: var(--unnamed-line-spacing-37);
 }
 /*? END ABOUT GEPP*/
 
@@ -122,6 +123,10 @@
   .section4-button-text-size {
     font-size: 15px;
   }
+  .about-gepp-section4-button-text-size {
+    font-size: 20px;
+    line-height: var(--unnamed-line-spacing-37);
+  }
 }
 
 @media (min-width: 768px) {
@@ -141,6 +146,10 @@
   }
   .section4-button-text-size {
     font-size: 20px;
+  }
+  .about-gepp-section4-button-text-size {
+    font-size: 30px;
+    line-height: var(--unnamed-line-spacing-37);
   }
 }
 
@@ -163,6 +172,10 @@
   .section4-button-text-size {
     font-size: 20px;
   }
+  .about-gepp-section4-button-text-size {
+    font-size: 30px;
+    line-height: var(--unnamed-line-spacing-37);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -182,6 +195,10 @@
   }
   .section4-button-text-size {
     font-size: 20px;
+  }
+  .about-gepp-section4-button-text-size {
+    font-size: 30px;
+    line-height: var(--unnamed-line-spacing-37);
   }
 }
 
@@ -205,6 +222,10 @@
   .section4-button-text-size {
     font-size: 20px;
   }
+  .about-gepp-section4-button-text-size {
+    font-size: 30px;
+    line-height: var(--unnamed-line-spacing-37);
+  }
 }
 
 @media (min-width: 1600px) {
@@ -224,5 +245,9 @@
   }
   .section4-button-text-size {
     font-size: 20px;
+  }
+  .about-gepp-section4-button-text-size {
+    font-size: 30px;
+    line-height: var(--unnamed-line-spacing-37);
   }
 }
