@@ -16,15 +16,110 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
     />
     <title>Document</title>
+    <style>
+      .event-card img {
+        width: 100%;
+        height: 25vh;
+        object-fit: cover;
+      }
+
+      .news-card img {
+        width: 100%;
+        height: 25vh;
+        object-fit: cover;
+      }
+
+      @media (min-width: 576px) {
+        .event-card img {
+          width: 100%;
+          height: 36vh;
+        }
+        .news-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          align-self: 1 /1;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .event-card img {
+          width: 40vh;
+          height: 36vh;
+          aspect-ratio: 1 / 1;
+        }
+        .news-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          aspect-ratio: 1/1;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .event-card img {
+          width: 100%;
+          height: 27vh;
+        }
+        .news-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          aspect-ratio: 1 /1;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .event-card img {
+          width: 70vh;
+          height: 30vh;
+        }
+        .news-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          aspect-ratio: 1 /1;
+        }
+      }
+
+      @media (min-width: 1400px) {
+        .event-card img {
+          width: 45vh;
+          height: 45vh;
+          max-width: 45vh;
+          aspect-ratio: 10 / 3;
+        }
+        .news-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          aspect-ratio: 1 /1;
+        }
+      }
+
+      @media (min-width: 1600px) {
+        .event-card img {
+          width: 45vh;
+          height: 45vh;
+          aspect-ratio: 1 / 1;
+        }
+        .news-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          aspect-ratio: 1 /1;
+        }
+      }
+    </style>
   </head>
   <body class="home-body">
     <header class="navbar position-fixed end-0 start-0 z-3">
       <nav class="custom-container position-fixed end-0 start-0 top-0">
         <div class="d-flex justify-content-between align-items-center px-3">
           <div>
-            <h1 class="fw-semibold w-header-title text-header-title text-white">
+            <h2 class="fw-semibold w-header-title text-header-title text-white">
               Green Economy Programme in the Philippines
-            </h1>
+            </h2>
           </div>
           <!-- MENU FOR SMALL SCREEN -->
           <i
@@ -210,14 +305,14 @@
           <h1 class="hero-heading-1 hero-heading-1-text">
             Accelerating the Philippines’ Green Transition
           </h1>
-          <h1 class="hero-heading-2 hero-heading-2-text">
+          <h2 class="hero-heading-2 hero-heading-2-text">
             Empowering the Philippines for a Sustainable Future
-          </h1>
-          <h1 class="hero-heading-3 hero-heading-3-padding">
+          </h2>
+          <p class="hero-heading-3 hero-heading-3-padding">
             A platform designed to accelerate the country’s transition to a
             climate-smart, circular economy through collaboration, innovation,
             and actionable solutions.
-          </h1>
+          </p>
         </div>
       </div>
     </section>
@@ -233,13 +328,13 @@
             />
           </div>
           <div class="col-lg-6 text-start">
-            <h1 class="section1-text-size mt-3 lh-mono">
+            <p class="section1-text-size mt-3 lh-mono">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua. At vero eos et accusam et justo duo
               dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
               sanctus est.
-            </h1>
+            </p>
             <h1 class="section1-text-size">
               Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
             </h1>
@@ -364,20 +459,20 @@
     </section>
     <section class="section-2 section2-bg-color py-5 text-center">
       <div class="custom-container">
-        <h1 class="section2-text-size custom-container section2-font-family">
+        <p class="section2-text-size custom-container section2-font-family">
           Join the movement for a sustainable future. Together, we can transform
           challenges into opportunities for a greener world.
-        </h1>
+        </p>
       </div>
     </section>
     <section class="section-3 bg-light text-center">
       <div class="py-5 text-center">
         <div class="mb-4">
-          <h1 class="section4-title-text-color fw-bold">UPCOMING EVENTS</h1>
+          <h2 class="section4-title-text-color fw-bold">UPCOMING EVENTS</h2>
         </div>
         <div class="custom-container upcoming-events row">
           <!-- Events 1 -->
-          <div class="event section2-image-mb">
+          <div class="event section2-image-mb event-card">
             <div
               class="position-relative event-layout event-layout-sm event-layout-md event-layout-lg event-layout-l event-layout-xl align-items-start align-items-md-end gap-3"
             >
@@ -386,16 +481,16 @@
                 >UPCOMING</span
               >
               <img
-                src="https://picsum.photos/id/237/300/300"
-                class="img-fluid w-100 w-md-auto object-fit-cover section3-image-styles"
+                src="https://picsum.photos/id/237/600/300"
+                class="img-fluid section3-image-styles"
                 alt="Event Image"
               />
               <div class="text-start">
-                <h1
+                <p
                   class="section3-card-text-title section3-card-text-title-size"
                 >
                   Ut dictum, eros vitae interdum portitor
-                </h1>
+                </p>
                 <div
                   class="section3-text-dategeo-time-size section3-text-date-geo-time fw-semibold"
                 >
@@ -433,25 +528,25 @@
             </div>
           </div>
           <!-- Events 2 -->
-          <div class="event section2-image-mb">
+          <div class="event section2-image-mb event-card">
             <div
-              class="position-relative event-layout event-layout-sm event-layout-md event-layout-lg event-layout-l event-layout-xl event-layout-xxl align-items-start align-items-md-end gap-3"
+              class="position-relative event-layout event-layout-sm event-layout-md event-layout-lg event-layout-l event-layout-xl align-items-start align-items-md-end gap-3"
             >
               <span
                 class="position-absolute top-0 start-10 bg-danger px-2 py-1 section3-image-badge section3-image-badge-text section3-image-badge-text-size"
                 >UPCOMING</span
               >
               <img
-                src="https://picsum.photos/id/237/300/300"
-                class="img-fluid w-100 w-md-auto object-fit-cover section3-image-styles"
+                src="https://picsum.photos/id/237/600/300"
+                class="img-fluid section3-image-styles"
                 alt="Event Image"
               />
               <div class="text-start">
-                <h1
+                <p
                   class="section3-card-text-title section3-card-text-title-size"
                 >
                   Ut dictum, eros vitae interdum portitor
-                </h1>
+                </p>
                 <div
                   class="section3-text-dategeo-time-size section3-text-date-geo-time fw-semibold"
                 >
@@ -489,25 +584,25 @@
             </div>
           </div>
           <!-- Events 3 -->
-          <div class="event section2-image-mb">
+          <div class="event section2-image-mb event-card">
             <div
-              class="position-relative event-layout event-layout-sm event-layout-md event-layout-lg event-layout-l event-layout-xl event-layout-xxl align-items-start align-items-md-end gap-3"
+              class="position-relative event-layout event-layout-sm event-layout-md event-layout-lg event-layout-l event-layout-xl align-items-start align-items-md-end gap-3"
             >
               <span
                 class="position-absolute top-0 start-10 bg-danger px-2 py-1 section3-image-badge section3-image-badge-text section3-image-badge-text-size"
                 >UPCOMING</span
               >
               <img
-                src="https://picsum.photos/id/237/300/300"
-                class="img-fluid w-100 w-md-auto object-fit-cover section3-image-styles"
+                src="https://picsum.photos/id/237/600/300"
+                class="img-fluid section3-image-styles"
                 alt="Event Image"
               />
               <div class="text-start">
-                <h1
+                <p
                   class="section3-card-text-title section3-card-text-title-size"
                 >
                   Ut dictum, eros vitae interdum portitor
-                </h1>
+                </p>
                 <div
                   class="section3-text-dategeo-time-size section3-text-date-geo-time fw-semibold"
                 >
@@ -545,25 +640,25 @@
             </div>
           </div>
           <!-- Events 4 -->
-          <div class="event">
+          <div class="event section2-image-mb event-card">
             <div
-              class="position-relative event-layout event-layout-sm event-layout-md event-layout-lg event-layout-l event-layout-xl event-layout-xxl align-items-start align-items-md-end gap-3"
+              class="position-relative event-layout event-layout-sm event-layout-md event-layout-lg event-layout-l event-layout-xl align-items-start align-items-md-end gap-3"
             >
               <span
                 class="position-absolute top-0 start-10 bg-danger px-2 py-1 section3-image-badge section3-image-badge-text section3-image-badge-text-size"
                 >UPCOMING</span
               >
               <img
-                src="https://picsum.photos/id/237/300/300"
-                class="img-fluid w-100 w-md-auto object-fit-cover section3-image-styles"
+                src="https://picsum.photos/id/237/600/300"
+                class="img-fluid section3-image-styles"
                 alt="Event Image"
               />
               <div class="text-start">
-                <h1
+                <p
                   class="section3-card-text-title section3-card-text-title-size"
                 >
                   Ut dictum, eros vitae interdum portitor
-                </h1>
+                </p>
                 <div
                   class="section3-text-dategeo-time-size section3-text-date-geo-time fw-semibold"
                 >
@@ -619,23 +714,23 @@
       <div class="custom-container row g-4">
         <!-- News 1 -->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-          <div class="row align-items-center">
+          <div class="row align-items-center news-card">
             <div class="col-12 col-sm-4 col-md-12 col-lg-4">
               <img
-                src="https://picsum.photos/id/33/400/400"
+                src="https://picsum.photos/id/33/1000/400"
                 class="img-fluid w-100 w-md-auto object-fit-cover rounded-4"
                 alt="Event Image"
               />
             </div>
             <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-start">
-              <h6
+              <p
                 class="text-uppercase section4-tag-text section-text-tag-text-size fst-italic"
               >
                 Article Tag
-              </h6>
-              <p class="section4-title-text fw-bold section4-text-title-size">
-                Ut dictum eros vitae venenatis interdum
               </p>
+              <h6 class="section4-title-text fw-bold section4-text-title-size">
+                Ut dictum eros vitae venenatis interdum
+              </h6>
               <p class="section-overview-text mb-2">
                 Vivamus non magna lobortis, molestie ipsum a, porttitor justo.
                 Proin at consequat ipsum.
@@ -648,23 +743,23 @@
         </div>
         <!-- News 2 -->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-          <div class="row align-items-center">
+          <div class="row align-items-center news-card">
             <div class="col-12 col-sm-4 col-md-12 col-lg-4">
               <img
-                src="https://picsum.photos/id/33/400/400"
+                src="https://picsum.photos/id/33/1000/400"
                 class="img-fluid w-100 w-md-auto object-fit-cover rounded-4"
                 alt="Event Image"
               />
             </div>
             <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-start">
-              <h6
+              <p
                 class="text-uppercase section4-tag-text section-text-tag-text-size fst-italic"
               >
                 Article Tag
-              </h6>
-              <p class="section4-title-text fw-bold section4-text-title-size">
-                Ut dictum eros vitae venenatis interdum
               </p>
+              <h6 class="section4-title-text fw-bold section4-text-title-size">
+                Ut dictum eros vitae venenatis interdum
+              </h6>
               <p class="section-overview-text mb-2">
                 Vivamus non magna lobortis, molestie ipsum a, porttitor justo.
                 Proin at consequat ipsum.
@@ -677,23 +772,23 @@
         </div>
         <!--News 3-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-          <div class="row align-items-center">
+          <div class="row align-items-center news-card">
             <div class="col-12 col-sm-4 col-md-12 col-lg-4">
               <img
-                src="https://picsum.photos/id/33/400/400"
+                src="https://picsum.photos/id/33/1000/400"
                 class="img-fluid w-100 w-md-auto object-fit-cover rounded-4"
                 alt="Event Image"
               />
             </div>
             <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-start">
-              <h6
+              <p
                 class="text-uppercase section4-tag-text section-text-tag-text-size fst-italic"
               >
                 Article Tag
-              </h6>
-              <p class="section4-title-text fw-bold section4-text-title-size">
-                Ut dictum eros vitae venenatis interdum
               </p>
+              <h6 class="section4-title-text fw-bold section4-text-title-size">
+                Ut dictum eros vitae venenatis interdum
+              </h6>
               <p class="section-overview-text mb-2">
                 Vivamus non magna lobortis, molestie ipsum a, porttitor justo.
                 Proin at consequat ipsum.
@@ -706,23 +801,23 @@
         </div>
         <!-- News 4-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-          <div class="row align-items-center">
+          <div class="row align-items-center news-card">
             <div class="col-12 col-sm-4 col-md-12 col-lg-4">
               <img
-                src="https://picsum.photos/id/33/400/400"
+                src="https://picsum.photos/id/33/1000/400"
                 class="img-fluid w-100 w-md-auto object-fit-cover rounded-4"
                 alt="Event Image"
               />
             </div>
             <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-start">
-              <h6
+              <p
                 class="text-uppercase section4-tag-text section-text-tag-text-size fst-italic"
               >
                 Article Tag
-              </h6>
-              <p class="section4-title-text fw-bold section4-text-title-size">
-                Ut dictum eros vitae venenatis interdum
               </p>
+              <h6 class="section4-title-text fw-bold section4-text-title-size">
+                Ut dictum eros vitae venenatis interdum
+              </h6>
               <p class="section-overview-text mb-2">
                 Vivamus non magna lobortis, molestie ipsum a, porttitor justo.
                 Proin at consequat ipsum.
