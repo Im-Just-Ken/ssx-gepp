@@ -1,7 +1,7 @@
 /*? ABOUT GEPP */
 .about-gepp-section3-giz-icon {
-  height: 60px;
-  width: 73px;
+  height: 50px;
+  width: 63px;
 }
 
 .about-gepp-section3-undp-icon {
@@ -10,20 +10,20 @@
 }
 
 .about-gepp-section3-expertise-france-icon {
-  height: 60px;
-  width: 175px;
+  height: 50px;
+  width: 160px;
 }
 .about-gepp-section3-gggi-icon {
-  width: 161px;
-  height: 60px;
+  width: 151px;
+  height: 50px;
 }
 .about-gepp-section3-gepp-icon {
   height: 60px;
   width: 161px;
 }
 .about-gepp-section3-ifc-icon {
-  height: 60px;
-  width: 340px;
+  height: 50px;
+  width: 319px;
 }
 
 .about-gepp-section3-card-title-text {
@@ -149,6 +149,26 @@
 /*? SECTION 3 CARD*/
 
 @media (min-width: 576px) {
+  .about-gepp-section3-undp-icon {
+    height: 40px;
+    width: 20px;
+  }
+  .about-gepp-section3-giz-icon {
+    height: 40px;
+    width: 53px;
+  }
+  .about-gepp-section3-gggi-icon {
+    width: 161px;
+    height: 40px;
+  }
+  .about-gepp-section3-expertise-france-icon {
+    height: 40px;
+    width: 175px;
+  }
+  .about-gepp-section3-ifc-icon {
+    height: 40px;
+    width: 240px;
+  }
   .section3-button-text-size {
     font-size: 15px;
   }
@@ -177,6 +197,22 @@
 }
 
 @media (min-width: 768px) {
+  .about-gepp-section3-undp-icon {
+    height: 50px;
+    width: 25px;
+  }
+  .about-gepp-section3-giz-icon {
+    height: 50px;
+    width: 63px;
+  }
+  .about-gepp-section3-gggi-icon {
+    width: 161px;
+    height: 10px;
+  }
+  .about-gepp-section3-expertise-france-icon {
+    height: 40px;
+    width: 175px;
+  }
   .section3-button-text-size {
     font-size: 20px;
   }
@@ -206,6 +242,22 @@
 
 /*? LAPTOPS/PC */
 @media (min-width: 992px) {
+  .about-gepp-section3-undp-icon {
+    height: 60px;
+    width: 30px;
+  }
+  .about-gepp-section3-giz-icon {
+    height: 60px;
+    width: 73px;
+  }
+  .about-gepp-section3-gggi-icon {
+    width: 161px;
+    height: 60px;
+  }
+  .about-gepp-section3-expertise-france-icon {
+    height: 60px;
+    width: 175px;
+  }
   .section3-button-text-size {
     font-size: 20px;
   }
@@ -336,6 +388,10 @@
 
 /* Small screens (≥576px) */
 @media (min-width: 576px) {
+  .about-gepp-section3-gggi-icon {
+    width: 131px;
+    height: 40px;
+  }
   .event {
     width: 100%;
   }
@@ -349,6 +405,18 @@
 
 /* Medium screens (≥768px) */
 @media (min-width: 768px) {
+  .about-gepp-section3-gggi-icon {
+    width: 131px;
+    height: 60px;
+  }
+  .about-gepp-section3-expertise-france-icon {
+    height: 50px;
+    width: 180px;
+  }
+  .about-gepp-section3-ifc-icon {
+    height: 50px;
+    width: 320px;
+  }
   .event {
     width: 100%;
   }
@@ -362,6 +430,14 @@
 
 /* Large screens (≥992px) */
 @media (min-width: 992px) {
+  .about-gepp-section3-gggi-icon {
+    width: 151px;
+    height: 60px;
+  }
+  .about-gepp-section3-expertise-france-icon {
+    height: 60px;
+    width: 175px;
+  }
   .event {
     width: 50%;
   }
@@ -375,6 +451,11 @@
 
 /* Extra large screens (≥1400px) */
 @media (min-width: 1400px) {
+  .about-gepp-section3-ifc-icon {
+    height: 60px;
+    width: 340px;
+  }
+
   .event {
     width: 50%;
   }
@@ -388,6 +469,11 @@
 
 /* Extra wide screens (≥1600px) */
 @media (min-width: 1600px) {
+  .about-gepp-section3-ifc-icon {
+    height: 60px;
+    width: 340px;
+  }
+
   .event {
     width: 50%;
   }
@@ -404,6 +490,11 @@
 
 /* Ultra-wide screens (≥1920px) */
 @media (min-width: 1920px) {
+  .about-gepp-section3-ifc-icon {
+    height: 60px;
+    width: 340px;
+  }
+
   .event {
     width: 50%;
   }
