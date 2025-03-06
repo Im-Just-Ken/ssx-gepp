@@ -83,13 +83,13 @@
 /*? SECTION 3 CARD */
 .section3-card-text-title {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-30) / var(--unnamed-line-spacing-37)
-    var(--unnamed-font-family-helvetica-neue);
+    var(--unnamed-font-size-30) var(--unnamed-font-family-helvetica-neue);
   color: var(--unnamed-color-005f3c);
 }
 
 .section3-card-text-title-size {
-  font-size: 25px;
+  font-size: 19px;
+  line-height: normal;
 }
 
 .section3-text-date-geo-time {
@@ -258,6 +258,7 @@
   }
   .section3-card-text-title-size {
     font-size: 20px;
+    line-height: var(--unnamed-line-spacing-37);
   }
 }
 
@@ -285,6 +286,7 @@
 
   .section3-card-text-title-size {
     font-size: 27px;
+    line-height: var(--unnamed-line-spacing-37);
   }
   .section3-text-info-padding {
     padding-top: 15px;
@@ -314,6 +316,7 @@
   }
   .section3-card-text-title-size {
     font-size: 30px;
+    line-height: var(--unnamed-line-spacing-37);
   }
   .section3-text-info-padding {
     padding-top: 20px;
@@ -339,6 +342,9 @@
   .event-layout-sm {
     flex-direction: column;
   }
+  .about-gepp-section3-card-title-text-size {
+    font-size: 25px;
+  }
 }
 
 /* Medium screens (≥768px) */
@@ -348,6 +354,9 @@
   }
   .event-layout-md {
     flex-direction: row;
+  }
+  .about-gepp-section3-card-title-text-size {
+    font-size: 25px;
   }
 }
 
@@ -359,6 +368,9 @@
   .event-layout-lg {
     flex-direction: column;
   }
+  .about-gepp-section3-card-title-text-size {
+    font-size: 30px;
+  }
 }
 
 /* Extra large screens (≥1400px) */
@@ -368,6 +380,9 @@
   }
   .event-layout-l {
     flex-direction: row;
+  }
+  .about-gepp-section3-card-title-text-size {
+    font-size: 30px;
   }
 }
 
@@ -382,6 +397,9 @@
   .event-layout-xl {
     flex-direction: row;
   }
+  .about-gepp-section3-card-title-text-size {
+    font-size: 30px;
+  }
 }
 
 /* Ultra-wide screens (≥1920px) */
@@ -391,5 +409,8 @@
   }
   .event-layout-xxl {
     flex-direction: row;
+  }
+  .about-gepp-section3-card-title-text-size {
+    font-size: 30px;
   }
 }
