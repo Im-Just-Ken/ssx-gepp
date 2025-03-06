@@ -158,7 +158,7 @@
     width: 53px;
   }
   .about-gepp-section3-gggi-icon {
-    width: 161px;
+    width: 131px;
     height: 40px;
   }
   .about-gepp-section3-expertise-france-icon {
@@ -211,7 +211,7 @@
   }
   .about-gepp-section3-expertise-france-icon {
     height: 40px;
-    width: 175px;
+    width: 165px;
   }
   .section3-button-text-size {
     font-size: 20px;
@@ -388,10 +388,6 @@
 
 /* Small screens (≥576px) */
 @media (min-width: 576px) {
-  .about-gepp-section3-gggi-icon {
-    width: 131px;
-    height: 40px;
-  }
   .event {
     width: 100%;
   }
@@ -407,11 +403,11 @@
 @media (min-width: 768px) {
   .about-gepp-section3-gggi-icon {
     width: 131px;
-    height: 60px;
+    height: 50px;
   }
   .about-gepp-section3-expertise-france-icon {
     height: 50px;
-    width: 180px;
+    width: 140px;
   }
   .about-gepp-section3-ifc-icon {
     height: 50px;
